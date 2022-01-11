@@ -1,9 +1,9 @@
-/*pedro e paulo estao supervisionando o mesmo departamento*/
+/*Pedro e Paulo estao supervisionando o mesmo departamento*/
 INSERT INTO TB_FUNCIONARIO VALUES
 ('88735410999', '1969-11-25', 'Paulo', 'F', 'Junior', 
 'Rua Havai, 88', 5000, 'M', '88735410999', 1);
 
-/*fazendo o update para mudar o dep supervisionado do paulo*/
+/*fazendo o update para mudar o dep supervisionado do Paulo*/
 UPDATE TB_FUNCIONARIO SET NUMERO_DEPARTAMENTO = 2
 WHERE CPF = '88735410999';
 
